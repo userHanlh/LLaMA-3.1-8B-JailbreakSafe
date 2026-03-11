@@ -211,25 +211,34 @@ HuggingFace:
 
 # Citation
 
-If you use this project, please cite the datasets:
+If you use this project or datasets in your research, please cite the following works.
 
-WildJailbreak
+### WildTeaming / WildJailbreak Dataset
 
-```
-@dataset{wildjailbreak,
-  title={WildJailbreak},
-  author={AllenAI}
+```bibtex
+@misc{wildteaming2024,
+  title={WildTeaming at Scale: From In-the-Wild Jailbreaks to (Adversarially) Safer Language Models},
+  author={Liwei Jiang and Kavel Rao and Seungju Han and Allyson Ettinger and Faeze Brahman and Sachin Kumar},
+  year={2024},
+  eprint={2406.18510},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2406.18510}
+}
+````
+
+### JailBench
+
+```bibtex
+@article{liu2025jailbench,
+  title   = {JailBench: A Comprehensive Chinese Security Assessment Benchmark for Large Language Models},
+  author  = {Shuyi Liu and Simiao Cui and Haoran Bu and Yuming Shang and Xi Zhang},
+  year    = {2025},
+  journal = {arXiv preprint arXiv:2502.18935}
 }
 ```
 
-JailBench
-
-```
-@misc{jailbench,
-  title={JailBench},
-  author={STAIR-BUPT}
-}
-```
+We thank the authors of these datasets for making their work publicly available.
 
 ---
 
@@ -238,4 +247,11 @@ JailBench
 This project follows the licenses of the original datasets and models.
 
 ---
+
+If you find this project useful, please consider giving it a star ⭐
+
+```
+```
+
+
 
