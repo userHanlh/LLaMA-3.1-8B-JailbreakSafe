@@ -13,7 +13,7 @@ Model details:
 
 Large language models are vulnerable to **jailbreak prompts** that bypass safety alignment.
 
-This project proposes a **two-stage safety alignment pipeline**:
+This project proposes a **safety alignment pipeline**:
 
 1️⃣ **LoRA Supervised Fine-Tuning (SFT)**
 2️⃣ **Direct Preference Optimization (DPO)**
@@ -123,19 +123,13 @@ Method:
 
 # Training
 
-## Stage 1: LoRA SFT Training
+## LoRA SFT Training
 
 Script:
 
 ```
 llama_sft_dpo_jailbreaksafety/lora_train.py
 ```
-
-Uses:
-
-* TRL library
-* LoRA-based supervised fine-tuning
-
 Best checkpoint:
 
 ```
@@ -144,19 +138,13 @@ lora_stage2_adapter_3epoch
 
 ---
 
-## Stage 2: DPO Preference Alignment
+## DPO Preference Alignment
 
 Script:
 
 ```
 llama_sft_dpo_jailbreaksafety/dpo_train.py
 ```
-
-Uses:
-
-* TRL library
-* Direct Preference Optimization (DPO)
-
 Final aligned model:
 
 ```
@@ -250,3 +238,4 @@ JailBench
 This project follows the licenses of the original datasets and models.
 
 ---
+
