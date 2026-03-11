@@ -201,13 +201,6 @@ Key findings:
 
 ---
 
-# Model
-
-HuggingFace:
-
-[https://huggingface.co/hfuserh/LLaMA-3.1-8B-JailbreakSafe](https://huggingface.co/hfuserh/LLaMA-3.1-8B-JailbreakSafe)
----
-
 
 # Citation
 
@@ -246,12 +239,10 @@ We thank the authors of these datasets for making their work publicly available.
 
 This project follows the licenses of the original datasets and models.
 
----
-
 If you find this project useful, please consider giving it a star ⭐
 
 ```
-```
+
 
 
 
