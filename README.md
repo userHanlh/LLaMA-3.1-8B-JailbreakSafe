@@ -241,8 +241,5 @@ This project follows the licenses of the original datasets and models.
 
 If you find this project useful, please consider giving it a star ⭐
 
-```
-
-
 
 
